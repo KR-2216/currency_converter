@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #FEFAE0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    background-color: #DDA15E;
+    padding: 5vh;
+    border-radius: 2vh;
+    min-height: 45vh;
+    min-width: 40vh;
+}
+form{
+    margin: 2vh 0 2vh 0;
+    font-size: 1.75vh;
+}
+form select, button, input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.1rem;
+}
+input{
+    border: 1px solid #606C38;
+    border-radius: 0.25rem;
+    height: 4vh;
+    padding: 0 0 0 1vh;
+}
+.currency-dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4vh; 
+}
+img{
+    max-width: 5vh;
+}
+.select-container{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    border: 1px solid #FFFFFF;
+    border-radius: 0.25rem;
+}
+i{
+    font-size: 3vh;
+    margin-top: 3vh;
+}
+.msg{
+    padding: 4vh 0 4vh;
+}
+button{
+    background-color: #283618;
+    color: #FFFFFF;
+    border-radius: 1vh;
+    height: 6vh;
+    cursor: pointer;
+}
+
+
